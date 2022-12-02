@@ -25,3 +25,4 @@ CronJob --> https://kubernetes.io/docs/tasks/job/automated-tasks-with-cron-jobs/
 Secrets --> https://kubernetes.io/docs/tasks/inject-data-application/distribute-credentials-secure/ <br>
 
 
+DNS Look Up command --> kubectl -n demo run tmp-shell --rm -i --tty --image nicolaka/netshoot -- /bin/bash <br>
